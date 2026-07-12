@@ -1,0 +1,56 @@
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.log
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.history/
+.atom/
+
+# Flutter and Dart tooling
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+/coverage/
+**/doc/api/
+migrate_working_dir/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+api.dart
+lib/api.dart
+
+
+# Android generated/local files
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS/macOS generated files
+**/ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Linux/Windows generated plugin registrants
+linux/flutter/generated_plugin_registrant.*
+windows/flutter/generated_plugin_registrant.*
+
+# Build artifacts and symbol files
+app.*.symbols
+app.*.map.json
